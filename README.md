@@ -47,8 +47,8 @@ Before running the application, ensure you have the following installed:
 
 1. **Setup:**
    - Clone the repository to your local machine.
-   - Install the required Python dependencies using `pip install -r requirements.txt`.
-   - Configure the `config.ini` file with Kafka, Spark, and MySQL connection details.
+   - Install the required Python dependencies using `pip install -r kafka-python pyspark findspark`.
+   - Configure the `streaming_app.conf` file with Kafka, Spark, and MySQL connection details.
 
 2. **Data Ingestion:**
    - Start producing e-commerce transaction data to Kafka topics.
